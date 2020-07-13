@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"multipagea9140bcb": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

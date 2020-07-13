@@ -1,0 +1,53 @@
+body{
+  background-color: white;
+}
+
+.container{
+  background-color: white;
+  display: grid;
+  grid-template-rows: 2fr 5fr 2fr;
+  grid-template-columns: 1fr 6fr;
+  gap: 10px;
+}
+
+.Services{
+  background-color: hsl(191,80%,50%);
+  grid-row: 1;
+  grid-column: 1;
+  
+}
+
+.Tecnico{
+  background-color: hsl(191,80%,50%);
+  grid-row: 2;
+  grid-column: 1;
+
+}
+.Argumentagao{
+  background-color: rgb(120, 218, 240);
+  grid-row: 3;
+  grid-column: 1;
+}
+.Concorrencia{
+  background-color: hsl(129,38%,40%);
+  grid-row: 4;
+  grid-column: 1;
+}
+
+.Midas{
+  background-color: rgb(134, 230, 149);
+  grid-row: 5;
+  grid-column: 1;
+}
+
+.Folhetos{
+  background-color: hsl(210,1%,31%);
+  grid-row: 6;
+  grid-column: 1;
+}
+
+.Infos{
+  background-color: hsl(191,80%,50%);
+  grid-row: 7;
+  grid-column: 1;
+}
