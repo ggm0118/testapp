@@ -1,0 +1,12 @@
+.container{
+    background-image: url('https://reactimg194502-dev.s3.us-east-2.amazonaws.com/Trucks/Login/logLan.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    height: 100%;
+
+  }
+
+  div{
+      height: 100%;
+  }

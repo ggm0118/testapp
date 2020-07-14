@@ -1,27 +1,26 @@
 import React from "react";
 import {} from 'react-bootstrap';
+import { Grid} from '@material-ui/core';
+import Header from "./header.jsx";
+import FormRows from "./row.js";
 
-import './Main.css';
 
 
-function MainPage(){
-    return(
 
-        <div className="container">
-            <div className="Services">
-                <div className="item">Services</div>
-                <div className="item">Brasil (Portugles)</div>
-            </div>
-            <div className="Tecnico">Tecnico</div>
-            <div className="Argumentagao">Argumentagao</div>
-            <div className="Concorrencia">Concorrencia</div>
-            <div className="Midas">Midas</div>
-            <div className="Folhetos">Folhetos Fenatran</div>
-            <div className="Infos">Infos</div>
+function MainPage () {
     
-        </div>
-
+    return (
+        <Grid container spacing={3}>
+            <Grid item xs={12}>
+                <Header />
+            </Grid>
+            <Grid item xs={12}>
+                <FormRows />
+            </Grid>
+            <Grid item xs={12}>
+                
+            </Grid>
+        </Grid>
+            
     );
-}
-
-export default MainPage;
+  }; export default MainPage;
